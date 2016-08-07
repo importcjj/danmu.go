@@ -1,8 +1,6 @@
 # Danmu.go
 
-#### 命令行中的弹幕
-
-## douyu弹幕实例
+## Douyu弹幕简单示例
 
 ```go
 package main
@@ -26,6 +24,7 @@ func DanmuHandle(message *douyu.Message) {
 		return
 	}
 	switch contentType {
+	// 有多种消息类型.
 	case douyu.TypeChatMsg:
 		// 默认全部为string
 		nick, _ := message.Field("nn")
@@ -48,4 +47,7 @@ func main() {
 }
 ```
 
-*注意上述代码中，JoinRoom使用的参数为房间ID，特殊的房间名是不支持的。需要你用浏览器打开该直播间，并使用开发者工具查看主HTML中$ROOM这个对象中定义的room_id字段的值(可使用文本搜索)
+注意上述代码中，JoinRoom使用的参数为房间ID，特殊的房间名是不支持的。需要你用浏览器打开该直播间，并使用开发者工具查看主HTML中$ROOM这个对象中定义的room_id字段的值(可使用文本搜索)
+
+### 示例效果
+![](images/example1.png)
