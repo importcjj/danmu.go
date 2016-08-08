@@ -1,6 +1,8 @@
 # Danmu.go
 [![GoDoc](https://godoc.org/github.com/importcjj/danmu.go/douyu?status.svg)](https://godoc.org/github.com/importcjj/danmu.go/douyu)
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/importcjj/danmu.go)](https://goreportcard.com/report/github.com/importcjj/danmu.go)
+
 ## Douyu弹幕简单示例
 
 ```go
