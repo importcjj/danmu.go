@@ -1,4 +1,5 @@
 # Danmu.go
+[![GoDoc](https://godoc.org/github.com/importcjj/danmu.go/douyu?status.svg)](https://godoc.org/github.com/importcjj/danmu.go/douyu)
 
 ## Douyu弹幕简单示例
 
